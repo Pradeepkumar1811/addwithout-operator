@@ -5,6 +5,7 @@ public class Demo{
             a=a^b;
             b=carry<<1;
         }
-        return a;
+        int answer=a;
+        return answer;
     }
 }
